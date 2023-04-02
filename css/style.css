@@ -23,6 +23,9 @@
     padding: 10px 24px;
     color: var(--tertiary-color);
     transition: .5s;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: var(--secondary-color);
@@ -52,6 +55,17 @@ font-size: 13px;
 .header__top .info span a i,
 .header__top .info span i{
     margin-right: 7px;
+}
+
+/* header bottom  */
+.header__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__bottom ul{
+    display: flex;
+    gap: 25px;
 }
 /*-------------------------
  header top css end here

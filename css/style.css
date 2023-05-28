@@ -35,6 +35,10 @@
 /*-------------------------
  header top css start here
 ---------------------------*/
+header{
+    z-index: 99;
+    opacity: 1;
+}
 .header__top{
     display: flex;
     justify-content: space-between;
@@ -69,5 +73,28 @@ font-size: 13px;
 }
 /*-------------------------
  header top css end here
+---------------------------*/
+
+
+/*-------------------------
+ Banner section css start here
+---------------------------*/
+.banner{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+}
+.slider{
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+    opacity: .7;
+}
+
+/*-------------------------
+ Banner  section css end here
 ---------------------------*/
 
